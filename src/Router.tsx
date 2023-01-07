@@ -12,7 +12,7 @@ export function Router() {
           element={<Home />}
         />
         <Route 
-          path="/post"
+          path="/posts/:id"
           element={<Post />}
         />
       </Route>
