@@ -14,6 +14,7 @@
 }
 
 .profile > div {
+  width: 100%;
   position: relative;
 }
 
@@ -85,35 +86,35 @@
 .postsContainer {
   margin-top: 4.8rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 41.6rem 41.6rem;
   gap: 3.2rem;
 }
 
-.postsContainer > div {
+.postsContainer > a {
   height: 26.0rem;
   background-color: var(--blue-600);
   border-radius: 10px;
   padding: 3.2rem;
 }
 
-.postsContainer > div header {
+.postsContainer > a header {
   display: flex;
   justify-content: space-between;
   gap: 1.6rem;
 }
 
-.postsContainer > div header h3 {
+.postsContainer > a header h3 {
   font-size: 2.0rem;
 }
 
-.postsContainer > div header span {
+.postsContainer > a header span {
   width: 100%;
   max-width: fit-content;
   color: var(--gray-400);
   font-size: 1.4rem;
 }
 
-.postsContainer > div main {
+.postsContainer > a main {
   margin-top: 2.0rem;
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -122,5 +123,6 @@
   text-overflow: ellipsis;
 }
 
-.postsContainer > div main p {
+.postsContainer > a main p {
+  color: var(--gray-300);
 }
